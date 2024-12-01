@@ -3,6 +3,10 @@ plugins {
 }
 
 android {
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+    
     compileSdk 34
     buildToolsVersion "34.0.0"
     namespace "io.github.tehcneko.telespeed"
